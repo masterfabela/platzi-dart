@@ -10,6 +10,8 @@ void varExample() {
   print(name);
   name = "Jorge";
   print(name);
+  name = name.replaceAll("J", "I");
+  print(name);
 }
 
 void dynamicExample() {
